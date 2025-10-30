@@ -10,8 +10,7 @@ export default function Proyecto3() {
         <div className="project-detail__content">
           <h2>Etiketa</h2>
           <p>
-            Breve descripción del proyecto 3. Destacá 1–2 desafíos y lo que
-            aprendiste/optimizaste.
+            Breve descripción del proyecto 3. 
           </p>
   
           <div className="project-detail__actions">

@@ -10,7 +10,7 @@ export default function Proyecto1() {
           <h2>Teach - House</h2>
           <p>
             Breve descripción del proyecto: objetivo, problema que resuelve,
-            tu aporte y tecnologías. Mantenerlo en 3–5 líneas.
+            y tecnologías. 
           </p>
   
           <div className="project-detail__actions">

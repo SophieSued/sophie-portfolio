@@ -10,8 +10,7 @@ export default function Proyecto2() {
         <div className="project-detail__content">
           <h2>MalarIA</h2>
           <p>
-            Resumen del proyecto 2. Qué hiciste vos, qué tecnologías usaste
-            y cuál fue el resultado principal.
+            Resumen del proyecto 2. 
           </p>
   
           <div className="project-detail__actions">
