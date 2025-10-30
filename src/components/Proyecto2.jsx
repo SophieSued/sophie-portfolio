@@ -2,7 +2,9 @@ export default function Proyecto2() {
     return (
       <section id="proyecto-2" className="project-detail section">
         <div className="project-detail__media">
-          {/* <img src="/malarIA.jpg" alt="MalarIA" /> */}
+          {
+            
+          }
         </div>
   
         <div className="project-detail__content">

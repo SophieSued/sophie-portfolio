@@ -1,7 +1,9 @@
 export default function SobreMi() {
     return (
       <section id="sobre-mi" className="about section">
-        {/* Carrusel/Marquee superior */}
+        {
+          
+        }
         <div className="marquee" aria-hidden="true">
           <div className="marquee__track">
             <span>sobre mi — sobre mi — sobre mi — sobre mi — sobre mi — </span>
@@ -9,9 +11,13 @@ export default function SobreMi() {
           </div>
         </div>
   
-        {/* Contenido principal */}
+        {
+
+        }
         <div className="about__grid">
-          {/* Timeline */}
+          {
+
+          }
           <div className="timeline">
             <h2>Trayectoria</h2>
             <ul>
@@ -39,15 +45,18 @@ export default function SobreMi() {
             </ul>
           </div>
   
-          {/* Foto / placeholder */}
+          {
+
+          }
           <div className="about__photo">
-            {/* Si querés una imagen real, reemplazá por:
-            <img src="/mi-foto.jpg" alt="Sophie Sued" />
-            y poné mi-foto.jpg en /public
-            */}
+            {
+
+            }
           </div>
   
-          {/* Cualidades */}
+          {
+
+          }
           <aside className="qualities">
             <h3>Cualidades</h3>
             <ul>

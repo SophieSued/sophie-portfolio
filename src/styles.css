@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Dancing+Script&display=swap");
 
 :root {
-  --header-h: 84px; /* Altura del header */
+  --header-h: 84px; 
 }
 
 html {
@@ -17,7 +17,7 @@ body {
   font-family: "Playfair Display", serif;
   height: 100vh;
   overflow-x: hidden;
-  padding-top: var(--header-h); /* deja espacio para el header fijo */
+  padding-top: var(--header-h); 
 }
 
 /* ====== HEADER ====== */
@@ -361,4 +361,54 @@ nav a:hover {
   border-radius: 4px;
 }
 
+
+/* ====== PANTALLA COMPLETA ====== */
+:root{
+  --maxW: 1200px;                 
+}
+
+.section{
+  min-height: calc(100svh - var(--header-h));
+  display: grid;
+  align-items: center;            
+}
+
+.section > .container {
+  width: min(var(--maxW), 92%);
+  margin: 0 auto;
+  padding-block: clamp(8px, 2vw, 24px);
+}
+
+.section{ 
+  scroll-margin-top: calc(var(--header-h) + 8px);
+}
+
+.full-bleed{
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.section--full {
+  min-height: calc(100svh - var(--header-h));
+  display: grid;
+  align-items: center;
+}
+
+.section--compact {
+  min-height: calc(88svh - var(--header-h)); 
+  display: grid;
+  align-items: center;
+}
+
+.section > .container{
+  width: min(var(--maxW), 92%);
+  margin: 0 auto;
+  padding-block: clamp(8px, 2vw, 24px);
+}
+
+.section > .container > :first-child { margin-top: 0; }
+.section > .container > :last-child  { margin-bottom: 0; }
+
+h1, h2, h3 { margin-block: 0.4em; }
 

@@ -1,7 +1,9 @@
 export default function Contacto() {
     return (
       <section id="contacto" className="contact section">
-        {/* Marquee superior */}
+        {
+          
+        }
         <div className="marquee" aria-hidden="true">
           <div className="marquee__track">
             <span>contacto — contacto — contacto — contacto — contacto — </span>
@@ -9,9 +11,13 @@ export default function Contacto() {
           </div>
         </div>
   
-        {/* Grid principal */}
+        {
+
+        }
         <div className="contact__grid">
-          {/* Columna izquierda */}
+          {
+
+          }
           <div className="contact__info">
             <h2>Redes</h2>
   
@@ -34,11 +40,11 @@ export default function Contacto() {
             </div>
           </div>
   
-          {/* Columna derecha */}
+          {}
           <div className="contact__photo">
-            {/* Si tenés una imagen, agregala:
-            <img src="/contacto.jpg" alt="Contacto" />
-            */}
+            {
+
+            }
           </div>
         </div>
       </section>

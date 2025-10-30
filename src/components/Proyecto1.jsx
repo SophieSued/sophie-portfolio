@@ -2,9 +2,8 @@ export default function Proyecto1() {
     return (
       <section id="proyecto-1" className="project-detail section">
         <div className="project-detail__media">
-          {/* Si tenés imagen real, reemplazá por:
-          <img src="/teach-house.jpg" alt="Teach - House" />
-          y poné teach-house.jpg en /public */}
+          {
+          }
         </div>
   
         <div className="project-detail__content">
